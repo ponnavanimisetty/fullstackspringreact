@@ -1,9 +1,9 @@
 import React from 'react';
 
 const SingleContact= ({item}) => (
-
+/*
     <div className="row">
-    <div className="col s12 m6">
+    <div className="col s8 m6">
       <div className="card blue-grey darken-1">
         <div className="card-content white-text">
           <span className="card-title">{item.firstName} {item.lastName}</span>
@@ -14,7 +14,15 @@ const SingleContact= ({item}) => (
         </div>
       </div>
     </div>
-  </div>
+  </div>*/
+
+  <tbody>
+    <tr>
+      <td>{item.firstName} {item.lastName}</td>
+      <td>{item.email} </td>
+      <td>Edit / Delete</td>
+    </tr>
+  </tbody>
 
 
 );

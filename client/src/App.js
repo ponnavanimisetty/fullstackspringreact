@@ -8,8 +8,8 @@ function App() {
       <div className="container-fluid">
         <nav>
          
-        <div className="nav-wrapper center-align">
-          <a herf="/" className="brand-logo">CONTACTS MAINTENANCE</a>
+        <div className="nav-wrapper left-align grey darken-4" >
+          <a herf="/" className="brand-logo center">CONTACTS MAINTENANCE</a>
 
         </div>
         </nav>
@@ -17,6 +17,8 @@ function App() {
           <Contacts />
         </div>
       </div>
+
+    
 
   );
 }

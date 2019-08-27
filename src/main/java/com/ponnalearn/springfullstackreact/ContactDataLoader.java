@@ -23,13 +23,13 @@ public class ContactDataLoader implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
 		
-		Contact contact1=new Contact("Ponnaga","Vanimisetti","pvanimis@gmail.com");
+		/*Contact contact1=new Contact("Ponnaga","Vanimisetti","pvanimis@gmail.com");
 		Contact contact2=new Contact("Venkata","Nimmala","vnimmala@gmail.com");
 		Contact contact3=new Contact("Karthik","Sai","ksai@gmail.com");
 		contactRepository.save(contact1);
 		contactRepository.save(contact2);
 		contactRepository.save(contact3);
-		System.out.println(" Contacts Saved");
+		System.out.println(" Contacts Saved");*/
 
 	}
 
