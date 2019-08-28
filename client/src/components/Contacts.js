@@ -23,8 +23,8 @@ export default class Contacts extends Component{
                 < AddContacts />
                 </div>
                 <div className="row">
-                <table class="striped">
-                <thead class="white-text teal darken-1">
+                <table className="striped">
+                <thead className="white-text teal darken-1">
                 <tr>
                 <th>First Name</th>
                 <th>Email</th>
